@@ -1,0 +1,25 @@
+section{
+    
+    width: 100%;
+    
+}
+
+.vrijwilligers_header .col-md-8 {
+    width: 100%;
+    background: linear-gradient(to bottom, #d0cece, #d4aaae, #ffffff);
+    height: 30vh;
+}
+
+.vrijwilligers .col-10,
+.vrijwilligers .col-sm-10,
+.vrijwilligers .col-lg-5 {
+       
+    min-height: 50vh;
+    
+}
+
+
+
+
+
+

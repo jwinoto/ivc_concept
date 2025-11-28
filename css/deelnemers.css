@@ -1,0 +1,64 @@
+section{
+    
+    width: 100%;
+    
+    
+}
+
+.header_deelnemers .col-md-8 {
+    
+    width: 100%;
+    background: linear-gradient(to bottom,#d0cece, #d4aaae, #ffffff);
+    height: 35vh;
+}
+
+
+
+.trainingen .col-10,
+.trainingen .col-sm-10,
+.trainingen .col-lg-5 {
+    border-radius: 15px;
+    border: 1px solid #ae5d65;
+    min-height: 40px;
+    
+}
+
+.trainingen .col-10,
+.trainingen .col-sm-10,
+.trainingen .col-lg-3 {
+    border-radius: 15px;
+    border: 1px solid #ae5d65;
+    min-height: 40vh;
+    
+}
+
+
+
+.cursussen .col-10,
+.cursussen .col-sm-10,
+.cursussen .col-lg-5 {
+    border-radius: 15px;
+    border: 1px solid #ae5d65;  
+    min-height: 40vh;
+    
+}
+
+.bijeenkomsten .col-10,
+.bijeenkomsten .col-sm-10,
+.bijeenkomsten .col-lg-5 {
+    border-radius: 15px;
+    border: 1px solid #ae5d65;    
+    min-height: 40vh;
+    
+}
+
+
+.btn-primary {
+    background-color: #ae5d65;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #c5818a;
+}
+
