@@ -14,25 +14,19 @@ section{
 
 
 
+
 .trainingen .col-10,
-.trainingen .col-sm-10,
+.trainingen .col-sm-10{
+    min-height: 35vh;
+    border: 1px solid #ae5d65;
+    border-radius: 15px;
+}
+
 .trainingen .col-lg-5 {
-    border-radius: 15px;
-    border: 1px solid #ae5d65;
-    min-height: 40px;
-    
-}
-
-.trainingen .col-10,
-.trainingen .col-sm-10,
-.trainingen .col-lg-3 {
-    border-radius: 15px;
-    border: 1px solid #ae5d65;
     min-height: 40vh;
-    
+    border: 1px solid #ae5d65;
+    border-radius: 15px;
 }
-
-
 
 .cursussen .col-10,
 .cursussen .col-sm-10,

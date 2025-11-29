@@ -11,12 +11,17 @@ footer {
     padding: 15px;
 }
 
-.navbar .img-fluid{
+
+.navbar{
+    padding: 10px 10px;
     
-    max-height: 150px;
-    height: auto;
+}
+.navbar-brand .img-fluid {
+    max-height: 140px;
     width: auto;
 }
+
+
 
 .navbar .dropdown-item:hover {
     background-color: #cda4a8;
