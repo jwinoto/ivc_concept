@@ -19,7 +19,11 @@ section{
 }
 
 
-
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .vrijwilligers_header {
+        min-height: 25vh; /* lagere hoogte */
+    }
+}
 
 
 
