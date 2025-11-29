@@ -109,6 +109,10 @@ section{
 
 @media (min-width: 768px)  {
     .header_overons {
-        min-height: 25vh; /* lagere hoogte */
+        min-height: 15vh; /* lagere hoogte */
+    }
+
+    .partners .container{
+        min-height: 30vh;
     }
 }
