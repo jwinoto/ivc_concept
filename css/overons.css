@@ -7,7 +7,7 @@ section{
 .header_overons .col-md-8 {
     width: 100%;
     background: linear-gradient(to bottom,#d0cece,  #d4aaae, #ffffff);
-    height: 35vh;
+    min-height: 35vh;
 }
 
 .missie .col-md-8{
@@ -18,7 +18,7 @@ section{
 
 .aanpak .col-10,
 .aanpak .col-sm-10,
-.aanpak .col-lg-6 {
+.aanpak .col-lg-5 {
     border-radius: 15px;
     border: 1px solid #ae5d65; 
     

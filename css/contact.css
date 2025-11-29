@@ -9,7 +9,7 @@ section{
 .contact_header .col-md-8 {
     width: 100%;
     background: linear-gradient(to bottom, #d0cece, #d4aaae, #ffffff);
-    height: 30vh;
+    min-height: 35vh;
 }
 
 .map_locatie iframe{

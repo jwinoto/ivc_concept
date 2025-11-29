@@ -9,7 +9,7 @@ section{
     
     width: 100%;
     background: linear-gradient(to bottom,#d0cece, #d4aaae, #ffffff);
-    height: 35vh;
+    min-height: 35vh;
 }
 
 

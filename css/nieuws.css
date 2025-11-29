@@ -8,17 +8,16 @@ section{
 .header_nieuws .col-md-8 {
     width: 100%;
     background: linear-gradient(to bottom, #d0cece, #d4aaae, #ffffff);
-    height: 35vh;
+    min-height: 35vh;
 }
 
 
-.nieuws_content .col-10,
-.nieuws_content .col-sm-5,
-.nieuws_content .col-lg-3 {
+.card {
     border-radius: 15px;
     background-color: whitesmoke;
-    min-height: 70vh;
     
+    min-height: 75vh;
+    height: 75vh;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     
 }
