@@ -71,6 +71,8 @@ section{
     min-height: 60vh;
 }
 
+
+
 .partners .container .tekst{
     display: none;
     
@@ -79,7 +81,7 @@ section{
 
 .partners  .container:hover .tekst {
     display: block;
-    font-size: 14px;   
+    font-size: 12px;   
     border-radius: 15px;    
 }
 
