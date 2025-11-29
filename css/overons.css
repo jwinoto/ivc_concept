@@ -107,12 +107,8 @@ section{
     background-color: #c5818a;
 }
 
-@media (min-width: 768px)  {
+@media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
     .header_overons {
-        min-height: 50%; /* lagere hoogte */
-    }
-
-    .partners .container{
-        min-height: 30vh;
+        min-height: 25vh; 
     }
 }
