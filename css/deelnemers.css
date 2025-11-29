@@ -17,12 +17,13 @@ section{
 
 .trainingen .col-10,
 .trainingen .col-sm-10{
-    min-height: 35vh;
+    min-height: 30vh;
     border: 1px solid #ae5d65;
     border-radius: 15px;
 }
 
-.trainingen .col-lg-5 {
+.trainingen .col-lg-5,
+.trainingen .col-md-5 {
     min-height: 40vh;
     border: 1px solid #ae5d65;
     border-radius: 15px;
@@ -30,6 +31,7 @@ section{
 
 .cursussen .col-10,
 .cursussen .col-sm-10,
+.cursussen .col-md-5,
 .cursussen .col-lg-5 {
     border-radius: 15px;
     border: 1px solid #ae5d65;  
@@ -39,6 +41,7 @@ section{
 
 .bijeenkomsten .col-10,
 .bijeenkomsten .col-sm-10,
+.bijeenkomsten .col-md-5,
 .bijeenkomsten .col-lg-5 {
     border-radius: 15px;
     border: 1px solid #ae5d65;    
