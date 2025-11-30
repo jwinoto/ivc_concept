@@ -3,6 +3,10 @@ section{
     width: 100%;   
 }
 
+main { 
+    min-height: 50vh;
+}
+
 footer {
     min-height: 400px;
     background: radial-gradient(circle, #d4aaae 10%, #d0cece 50% );
@@ -43,12 +47,6 @@ footer {
 .hero_tekst{
     font-size: 80px;
     font-style: arial;
-}
-
-
-
-main {
-    min-height: 100vh;
 }
 
 .icon svg{
