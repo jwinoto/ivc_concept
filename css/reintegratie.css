@@ -1,8 +1,5 @@
-section{
-    
-    width: 100%;
-    
-    
+section{   
+    width: 100%; 
 }
 
 .header_reintegratie .col-md-8 {
@@ -11,21 +8,13 @@ section{
     min-height: 100px;
 }
 
-.reintegratie .links, .rechts{
-       
-    min-height: 400px;
-    border-radius: 15px;
-    
+.reintegratie .links, .rechts{       
+    min-height: 400px; 
 }
-
 
  .reintegratie p, ul li {
     font-size: 1rem;
  }
-
-
-
-
 @media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
     .header_reintegratie {
         min-height: 90px; 
