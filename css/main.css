@@ -79,30 +79,24 @@ section{
     scroll-margin-top: 40px;
 }
 .diensten{
-    min-height: 200px;
-    background-color: #f6f4f2;
-    
+    background-color: #f6f4f2;    
 }
 
-.diensten .row {
-    width: 95%;
-    margin: auto;
-    gap: 20px;
-    justify-content: center;
-    
-}
+
 
 .diensten .col-12, 
-.diensten .col-sm-8, 
+.diensten .col-sm-10,
+.diensten .col-md-10, 
 .diensten .col-lg-3 {
    
-    min-height: 45vh;
+    min-height: 200px;
     background: linear-gradient(to bottom right, #d0cece, #ae5d65);
     border-radius: 15px;
 }
 
-.diensten .col-12, 
-.diensten .col-sm-8, 
+.diensten .col-10, 
+.diensten .col-sm-10, 
+.diensten .col-md-10,
 .diensten .col-lg-3 a:hover{
    
     text-decoration: none;
@@ -125,23 +119,13 @@ section{
 
 .introductie {
     width: 100%;
-    min-height: 100vh;
-    padding: 20px;    
     background: linear-gradient(to bottom right, #d4aaae, #f6f4f2);
-}
-.introductie .col-12,
-.introductie .col-sm-6,
-.introductie .col-lg-6 {
-    padding: 20px;
-    gap: 20px;    
 }
 
 .introductie .btn{
     background-color: #ae5d65;
     width: 200px;
 }
-
-
 
 .btn-primary {
     background-color: #ae5d65;

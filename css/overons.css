@@ -25,10 +25,8 @@ section{
 
 
 
-.directie .directeur {
-       
-    min-height: 40vh;
-    
+.directie .directeur {      
+    min-height: 40vh;   
 }
 
 .directie .directeur_text {
@@ -39,7 +37,6 @@ section{
 .directie img{
     border-radius: 15px;
 }
-
 
 
 .onsteam img{
@@ -61,7 +58,15 @@ section{
 }
 
 .nav .nav-link.active {
-    color: #ae5d65;
+    color: #ffffff;
+}
+
+.nav {
+    background-color: #c5818a;
+}
+
+.tab-content{
+    background: linear-gradient(to bottom right, #d4aaae, #f6f4f2);
 }
 
 .partners .container {
