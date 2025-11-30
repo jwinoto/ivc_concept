@@ -7,7 +7,7 @@ section{
 .header_overons .col-md-8 {
     width: 100%;
     background: linear-gradient(to bottom,#d0cece,  #d4aaae, #ffffff);
-    min-height: 35vh;
+    min-height: 100px;
 }
 
 .missie .col-md-8{
@@ -20,8 +20,7 @@ section{
 .aanpak .col-sm-10,
 .aanpak .col-lg-5 {
     border-radius: 15px;
-    border: 1px solid #ae5d65; 
-    
+    min-height: 350px;
 }
 
 
@@ -68,20 +67,19 @@ section{
 .partners .container {
     border-radius: 15px;
     border: 1px solid #ae5d65;
-    min-height: 60vh;
+    min-height: 250px;
 }
 
 
 
 .partners .container .tekst{
-    display: none;
-    
+    display: none;   
     height: 100%;    
 }
 
 .partners  .container:hover .tekst {
     display: block;
-    font-size: 12px;   
+    font-size: 0.75rem;   
     border-radius: 15px;    
 }
 
@@ -109,6 +107,6 @@ section{
 
 @media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
     .header_overons {
-        min-height: 25vh; 
+        min-height: 90px; /* of 40%, afhankelijk van hoe klein je het wilt */
     }
 }

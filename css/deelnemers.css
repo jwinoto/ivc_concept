@@ -9,30 +9,28 @@ section{
     
     width: 100%;
     background: linear-gradient(to bottom,#d0cece, #d4aaae, #ffffff);
-    min-height: 35vh;
+    min-height: 100px;
 }
-
-
 
 
 .trainingen .col-10,
 .trainingen .col-sm-10,
 .trainingen .col-lg-5{
-    min-height: 45vh;
+    min-height: 300px;
     border: 1px solid #ae5d65;
     border-radius: 15px;
 }
 
 
 .trainingen .col-md-10{
-    min-height: 30vh;
+    min-height: 200px;
 }
 .cursussen .col-md-10{
-    min-height: 30vh;
+    min-height: 1500px;
 }
 
 .bijeenkomsten .col-md-10{
-    min-height: 30vh;
+    min-height: 200px;
 }
 
 .cursussen .col-10,
@@ -40,7 +38,7 @@ section{
 .cursussen .col-lg-5 {
     border-radius: 15px;
     border: 1px solid #ae5d65;  
-    min-height: 40vh;
+    min-height: 200px;
     
 }
 
@@ -49,7 +47,7 @@ section{
 .bijeenkomsten .col-lg-5 {
     border-radius: 15px;
     border: 1px solid #ae5d65;    
-    min-height: 40vh;
+    min-height: 200px;
     
 }
 
@@ -63,8 +61,8 @@ section{
     background-color: #c5818a;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
     .header_deelnemers {
-        min-height: 25vh; /* lagere hoogte */
+        min-height: 90px; /* of 40%, afhankelijk van hoe klein je het wilt */
     }
 }

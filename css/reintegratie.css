@@ -8,42 +8,27 @@ section{
 .header_reintegratie .col-md-8 {
     width: 100%;
     background: linear-gradient(to bottom, #d0cece, #d4aaae, #ffffff);
-    min-height: 35vh;
+    min-height: 100px;
 }
 
-.reintegratie .rechts{
+.reintegratie .links, .rechts{
        
-    min-height: 100vh;
+    min-height: 400px;
     border-radius: 15px;
     
 }
 
-.reintegratie .links{
-    
-    min-height: 100vh;
-    border-radius: 15px;
-    
-}
- .reintegratie p {
+
+ .reintegratie p, ul li {
     font-size: 1rem;
  }
 
 
-.reintegratie .col-lg-5 ul li {
-    font-size: 14px;
-}
-
-.reintegratie .col-sm-12 {
-    min-height: 70vh;
-}
-
-.reintegratie .col-12{
-    min-height: 80vh;
-}
 
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
     .header_reintegratie {
-        min-height: 25vh; /* lagere hoogte */
+        min-height: 90px; 
     }
 }
+

@@ -1,39 +1,36 @@
-section{
-    
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    
+section{  
+    width: 100%; 
 }
 
 .contact_header .col-md-8 {
     width: 100%;
     background: linear-gradient(to bottom, #d0cece, #d4aaae, #ffffff);
-    min-height: 35vh;
+    min-height: 100px;
 }
 
+.contact_info .col-10,
+.contact_info .col-sm-10,
+.contact_info .col-md-5,
+.contact_info .col-lg-5 {
+    min-height: 350px;
+}
+
+/*
+.contact_info .row{
+    background-color: lightgrey;
+}
+*/
+.map_locatie .col-md-8 {
+    width: 85%;
+}
 .map_locatie iframe{
     width: 100%;
     
 }
 
-@media screen and(max-width:768px) {
-    .contact_header .row {
-        width: 95%;
-        
-    }
 
-
-    .contact_info .row {
-        width: 95%;
-        
-    }
-
-    
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
     .contact_header {
-        min-height: 25vh; /* lagere hoogte */
+        min-height: 90px; 
     }
 }
