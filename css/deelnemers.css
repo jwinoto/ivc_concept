@@ -16,14 +16,11 @@ section{
 .trainingen .col-lg-5,
 .trainingen .col-lg-3
 {
-    height: 300px;
+    height: 320px;
     border: 1px solid #ae5d65;
     border-radius: 15px;
 }
 
-.cursussen .col-lg-5 {
-    width: 520px;
-}
 
 .cursussen .col-10,
 .cursussen .col-sm-10,
@@ -31,7 +28,7 @@ section{
 .cursussen .col-lg-5 {
     border-radius: 15px;
     border: 1px solid #ae5d65;  
-    min-height: 250px;
+    height: 280px;
     
 }
 
@@ -41,7 +38,7 @@ section{
 .bijeenkomsten .col-lg-5 {
     border-radius: 15px;
     border: 1px solid #ae5d65;    
-    min-height: 250px;
+    height: 320px;
     
 }
 
