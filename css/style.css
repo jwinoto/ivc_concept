@@ -13,6 +13,17 @@ footer {
     padding: 15px;
 }
 
+.icon:hover {
+    transition: transform 0.3s ease;
+    animation: scale_icon 0.5s forwards;
+}
+
+@keyframes scale_icon {
+    
+    to {
+        transform: scale(1.5);
+    }
+}
 
 
 .navbar-brand .img-fluid {
