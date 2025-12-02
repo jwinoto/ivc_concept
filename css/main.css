@@ -24,8 +24,6 @@ section{
     animation-delay: 3s;
 }
 
-
-
 @keyframes show_btn {
     0% {
         transform: translateY(50px);
@@ -45,10 +43,10 @@ section{
     font-size: 20px;
     transition: transform 2s ease-in-out;
     transform-origin: center;
-    animation: scaleIn 2s linear forwards;
+    animation: titel 2s linear forwards;
 }
 
-@keyframes scaleIn {
+@keyframes titel {
     from {
         transform:scale(0);
     }
@@ -92,16 +90,33 @@ section{
     min-height: 200px;
     background: linear-gradient(to bottom right, #d0cece, #ae5d65);
     border-radius: 15px;
+    transition: transform 0.3s ease;
 }
 
-.diensten .col-10, 
+.diensten .col-12, 
 .diensten .col-sm-10, 
 .diensten .col-md-10,
-.diensten .col-lg-3 a:hover{
+.diensten .col-lg-3:hover a{
    
     text-decoration: none;
     color: white;
-   
+    
+    
+}
+
+.diensten .col-12:hover, 
+.diensten .col-sm-10:hover, 
+.diensten .col-md-10:hover,
+.diensten .col-lg-3:hover {
+    
+    animation: scale_box 0.5s forwards;
+}
+
+@keyframes scale_box {
+    
+    to{
+        transform: scale(1.05);
+    }
     
 }
 
