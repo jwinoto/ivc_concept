@@ -1,7 +1,5 @@
-section{
-    
-    width: 100%;   
-    
+section{   
+    width: 100%;    
 }
 
 .header_overons .col-md-8 {
@@ -26,8 +24,10 @@ section{
 
 
 .directie .directeur {      
-    min-height: 40vh;   
+    min-height: 40vh;  
 }
+
+
 
 .directie .directeur_text {
     font-size: 1rem;
@@ -39,7 +39,7 @@ section{
 }
 
 .onsteam {
-    background-color: #d0cece;
+   background: linear-gradient(to bottom,#d0cece,  #d4aaae, #d0cece);
 }
 .onsteam img{
     border-radius: 20px;
@@ -60,18 +60,10 @@ section{
 }
 
 .nav .nav-link.active {
-    color: #ffffff;
+    color: #ae5d65;
 }
 
-.nav {
-    background-color: #c5818a;
-    width: 100%;
-}
 
-.tab-content{
-    background: linear-gradient(to bottom right, #d4aaae, #f6f4f2);
-    width: 100%;
-}
 
 .partners .container {
     position: relative;
