@@ -2,7 +2,7 @@ section{
     width: 100%;        
 }
 
-header .col-md-8 {
+.header_deelnemers .col-md-8 {
     
     width: 100%;
     background: linear-gradient(to bottom,#d0cece, #d4aaae, #ffffff);
@@ -13,8 +13,8 @@ header .col-md-8 {
 .trainingen .col-12,
 .trainingen .col-sm-12,
 .trainingen .col-md-12,
-.trainingen .col-lg-4,
-.trainingen .col-lg-8
+.trainingen .col-lg-5,
+.trainingen .col-lg-10
 {
     height: 320px;    
     border-radius: 15px;
@@ -59,7 +59,7 @@ header .col-md-8 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
-    header {
+    .header_deelnemers {
         min-height: 90px; 
     }
 }
