@@ -25,12 +25,12 @@ section{
 
 
 
-.cursussen .col-10,
-.cursussen .col-sm-10,
-.cursussen .col-md-10,
+.cursussen .col-12,
+.cursussen .col-sm-12,
+.cursussen .col-md-12,
 .cursussen .col-lg-5 {
     border-radius: 15px;
-    height: 320px;
+    height: 350px;
     background-color: whitesmoke;    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     
@@ -41,7 +41,7 @@ section{
 .bijeenkomsten .col-md-10,
 .bijeenkomsten .col-lg-5 {
     border-radius: 15px;   
-    height: 320px;
+    height: 350px;
     background-color: whitesmoke;    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
