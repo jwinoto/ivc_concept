@@ -12,8 +12,9 @@ section{
 .trainingen_prof .col-sm-10,
 .trainingen_prof .col-lg-3 {
     border-radius: 15px;
-    border: 1px solid #ae5d65;
     min-height: 200px;
+    background-color: whitesmoke;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-size: 1rem;
 }
 

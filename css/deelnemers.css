@@ -10,16 +10,19 @@ section{
 }
 
 
-.trainingen .col-10,
-.trainingen .col-sm-10,
-.trainingen .col-md-10,
-.trainingen .col-lg-5,
-.trainingen .col-lg-3
+.trainingen .col-12,
+.trainingen .col-sm-12,
+.trainingen .col-md-12,
+.trainingen .col-lg-4,
+.trainingen .col-lg-8
 {
-    height: 320px;
-    border: 1px solid #ae5d65;
+    height: 320px;    
     border-radius: 15px;
+    background-color: whitesmoke;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+
 
 
 .cursussen .col-10,
@@ -27,8 +30,9 @@ section{
 .cursussen .col-md-10,
 .cursussen .col-lg-5 {
     border-radius: 15px;
-    border: 1px solid #ae5d65;  
-    height: 400px;
+    height: 320px;
+    background-color: whitesmoke;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     
 }
 
@@ -36,10 +40,10 @@ section{
 .bijeenkomsten .col-sm-10,
 .bijeenkomsten .col-md-10,
 .bijeenkomsten .col-lg-5 {
-    border-radius: 15px;
-    border: 1px solid #ae5d65;    
-    height: 400px;
-    
+    border-radius: 15px;   
+    height: 320px;
+    background-color: whitesmoke;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -50,6 +54,8 @@ section{
 
 .btn-primary:hover {
     background-color: #c5818a;
+       
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
