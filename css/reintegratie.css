@@ -11,6 +11,10 @@ header .col-md-8 {
 .reintegratie .rechts{
     border-left: 2px solid #ae5d65;
 }
+
+.reintegratie .col-lg-5 {
+    border: none;
+}
 .reintegratie .links, .rechts{       
     min-height: 400px; 
 }

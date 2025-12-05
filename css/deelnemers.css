@@ -36,12 +36,12 @@ section{
     
 }
 
-.bijeenkomsten .col-10,
-.bijeenkomsten .col-sm-10,
-.bijeenkomsten .col-md-10,
+.bijeenkomsten .col-12,
+.bijeenkomsten .col-sm-12,
+.bijeenkomsten .col-md-12,
 .bijeenkomsten .col-lg-5 {
     border-radius: 15px;   
-    height: 350px;
+    height: 360px;
     background-color: whitesmoke;    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
