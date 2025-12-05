@@ -2,7 +2,7 @@ section{
     width: 100%; 
 }
 
-.header_reintegratie .col-md-8 {
+header .col-md-8 {
     width: 100%;
     background: linear-gradient(to bottom, #d0cece, #d4aaae, #ffffff);
     min-height: 100px;
@@ -19,7 +19,7 @@ section{
     font-size: 1rem;
  }
 @media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
-    .header_reintegratie {
+    header {
         min-height: 90px; 
     }
 }

@@ -5,7 +5,7 @@ section{
     
 }
 
-.header_nieuws .col-md-8 {
+header .col-md-8 {
     width: 100%;
     background: linear-gradient(to bottom, #d0cece, #d4aaae, #ffffff);
     min-height: 100px;
@@ -29,7 +29,7 @@ section{
 
 
 @media (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
-    .header_prof {
+    header {
         min-height: 90px; 
     }
 }
