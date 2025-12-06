@@ -43,7 +43,7 @@ section{
 .bijeenkomsten .col-12,
 .bijeenkomsten .col-sm-12,
 .bijeenkomsten .col-lg-5 {
-    min-height: 250px;
+    min-height: 300px;
     border-radius: 15px;   
     background-color: whitesmoke;    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
