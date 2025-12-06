@@ -12,38 +12,44 @@ section{
 
 .trainingen .col-12,
 .trainingen .col-sm-12,
-.trainingen .col-md-12,
-.trainingen .col-lg-5,
-.trainingen .col-lg-10
+.trainingen .col-lg-5
+
 {
-    height: 320px;    
+       
     border-radius: 15px;
     background-color: whitesmoke;    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-
+.trainingen .col-lg-10,
+.trainingen .col-md-12{
+    height: 360px;
+}
 
 
 .cursussen .col-12,
 .cursussen .col-sm-12,
-.cursussen .col-md-12,
 .cursussen .col-lg-5 {
     border-radius: 15px;
-    height: 350px;
+    
     background-color: whitesmoke;    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     
 }
 
+.cursussen .col-md-12 {
+    height: 360px;
+}
+
 .bijeenkomsten .col-12,
 .bijeenkomsten .col-sm-12,
-.bijeenkomsten .col-md-12,
 .bijeenkomsten .col-lg-5 {
     border-radius: 15px;   
-    height: 360px;
     background-color: whitesmoke;    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bijeenkomsten .col-md-12 {
+    height: 360px;
 }
 
 
